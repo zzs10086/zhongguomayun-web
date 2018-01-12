@@ -15,6 +15,11 @@ a{color:#666; text-decoration:none;}
 .mb7{margin-bottom:7px;}
 .w{width:1000px; margin:0 auto;}
 .tj{width:1000px; margin:0 auto;margin-top:24px; position:relative; z-index:999;}
+.fr{float: right;}
+.fl{float: left;}
+.clearfix {
+    clear: both;
+}
 
 .toper{
 	width:100%;
@@ -443,3 +448,51 @@ a{color:#666; text-decoration:none;}
 .a-article-info .a-art-info span{
     margin-right: 10px;
 }
+
+.a-cont .a-relevant{
+    clear: both;
+    margin: 20px 0px 0px 0px;
+
+}
+.a-relevant .htvideo{
+    clear: both;
+    margin: 20px 0px 0px 0px;
+}
+
+.htvideo ul li{
+    width: 195px;
+    float: left;
+    margin-right: 0px;
+    padding: 10px 0px 0px 0px;
+}
+.htvideo ul li:hover{
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px rgba(0,0,0,0.15);
+    -webkit-transform: translate3d(0, 1px, -2px);
+    transform: translate3d(0, 1px, -2px);
+}
+
+.htvideo ul li a{display: block;color:#222;}
+.htvideo ul li img{
+    width: 180px;
+}
+
+.vitem{position: relative;}
+.v-duration{position: absolute;right: 18px;bottom: 15px;background: rgba(34, 34, 34, .7);border-radius: 100px;font-size: 12px;color: #fff;padding: 12px 9px;}
+.v-duration i{width: 12px;height: 12px;display: inline-block;background: url(../images/bofang.png) no-repeat;vertical-align: middle;margin-top: -4px;}
+
+.v-duration {
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+.v-duration:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+.vTit{font-size: 14px;height: 40px;line-height: 20px;overflow: hidden;text-overflow: ellipsis;}
